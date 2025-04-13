@@ -7,7 +7,7 @@
   border: $border-width solid $card-border-color;
   border-radius: $border-radius-sm;
 
-  transition-duration: 0.3s;
+  transition-duration: $transition-duration;
 
   &:hover {
     transform: scale(1.2);
@@ -110,6 +110,8 @@
 
   &__button:hover {
     border: $border-width solid $btn-text-color-hover;
+
+    transition-duration: $transition-duration;
 
     background-color: $btn-bg-color-hover;
     color: $btn-text-color-hover;
