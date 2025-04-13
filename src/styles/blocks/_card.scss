@@ -106,12 +106,12 @@
 
     background-color: $btn-bg-color;
     color: $btn-text-color;
+
+    transition-duration: $transition-duration;
   }
 
   &__button:hover {
     border: $border-width solid $btn-text-color-hover;
-
-    transition-duration: $transition-duration;
 
     background-color: $btn-bg-color-hover;
     color: $btn-text-color-hover;
